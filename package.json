@@ -1,0 +1,42 @@
+{
+  "name": "synca-homepage",
+  "version": "0.0.0",
+  "description": "The live homepage at syncatech.com",
+  "author": "Alec Aivazis",
+  "private": true,
+  "scripts": {
+    "start": "gulp runserver"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-decorators": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "compression": "^1.6.0",
+    "del": "^2.2.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "radium": "^0.15.3",
+    "react-dom": "^0.14.3",
+    "react-helmet": "^2.2.0",
+    "react-router": "^1.0.2",
+    "redux": "^3.0.5",
+    "redux-responsive": "^0.1.3",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-preset-es2015": "^6.3.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-env": "^0.2.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-shell": "^0.5.1",
+    "karma": "^0.13.15",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^3.1.0"
+  }
+}
