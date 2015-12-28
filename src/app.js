@@ -7,6 +7,7 @@ import React from 'react'
 import {renderToString} from 'react-dom/server'
 import {RoutingContext, match} from 'react-router'
 import {Provider} from 'react-redux'
+import Helmet from 'react-helmet'
 // local imports
 import {
     buildDir,
