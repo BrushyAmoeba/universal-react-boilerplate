@@ -7,8 +7,6 @@ import React from 'react'
 import {renderToString} from 'react-dom/server'
 import {RoutingContext, match} from 'react-router'
 import {Provider} from 'react-redux'
-import Helmet from 'react-helmet'
-import favicon from 'serve-favicon'
 // local imports
 import {
     buildDir,
@@ -24,8 +22,6 @@ const app = express()
 
 /* Application-wide Middleware */
 
-// add the favicon
-app.use(favicon(faviconPath))
 // compress responses
 app.use(compression())
 /* Routing */
